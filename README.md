@@ -1,7 +1,7 @@
 # Cloudwatch
 
 
-# see cluster role name
+# See cluster role name
 eksctl get nodegroup --cluster basic-cluster -o json
 </br>
 # Update cluster stack name
@@ -10,7 +10,7 @@ aws cloudformation describe-stack-resources --stack-name eksctl-basic-cluster-no
 # Update cluster policy
 aws iam attach-role-policy --role-name eksctl-basic-cluster-nodegroup-ng-NodeInstanceRole-5W2I55I4WE2W --policy-arn arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
 </br>
-# see cluster policy list
+# See cluster policy list
 aws iam list-attached-role-policies --role-name eksctl-basic-cluster-nodegroup-ng-NodeInstanceRole-5W2I55I4WE2W
 
 </br>
