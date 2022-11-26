@@ -15,6 +15,6 @@ aws iam list-attached-role-policies --role-name eksctl-basic-cluster-nodegroup-n
 
 </br>
 #kubectl -n amazon-cloudwatch get daemonsets
-
+</br>
 Reference  18:00 to 29:00 minutes
 https://www.youtube.com/watch?v=-8kFawk-EFs
