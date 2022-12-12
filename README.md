@@ -18,3 +18,10 @@ aws iam list-attached-role-policies --role-name eksctl-basic-cluster-nodegroup-n
 </br>
 Reference  18:00 to 29:00 minutes
 https://www.youtube.com/watch?v=-8kFawk-EFs
+
+
+</br>
+
+#See result:
+
+CloudWatch > Container Insights >> Performance monitoring 
